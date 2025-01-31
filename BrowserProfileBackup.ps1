@@ -3,7 +3,7 @@ $chromeProfiles = Get-ChildItem -Path $env:LOCALAPPDATA"\Google\Chrome\User Data
 $edgeProfiles = Get-ChildItem -Path $env:LOCALAPPDATA"\Microsoft\Edge\User Data" | Where-Object { $_.Name -like "Default" -or $_.Name -like "*Profile*"}
 
 #Output path
-$outputPath = $($env:USERPROFILE + "\OneDrive\Important_Stuff\Bookmarks\")
+$outputPath = $($env:USERPROFILE + "\Desktop\")
 
 
 #copy Chrome Bookmarks
